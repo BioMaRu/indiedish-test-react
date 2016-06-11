@@ -1,0 +1,43 @@
+body, html {
+	margin: 0;
+	padding: 10px;;
+}
+form {
+	padding: 0;
+	margin-bottom: 15px;
+}
+input {
+	text-indent: 10px;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 5px 0;
+	width: 100%;			
+}
+.list {
+	margin-bottom: 5px;
+	background-color: #d1d1d1;
+	border-radius: 2px;
+}
+.list:hover {
+	background-color: orange;
+}
+.list.active {
+	background-color: red;
+}
+.item {
+	display: inline-block;
+	padding: 15px;
+}
+.close {
+	float: right;
+	display: inline-block;
+	cursor: pointer;
+	padding: 15px;
+	background-color: rgba(0, 0, 0, 0.07);
+}
+.close:hover {
+	background-color: rgba(0, 0, 0, 0.24);
+}
+.test {
+	background-color: red;
+}
